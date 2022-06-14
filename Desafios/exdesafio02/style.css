@@ -1,0 +1,173 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(180deg, #18C74C,#0c5721);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.521);
+    max-height: 150px;
+   
+    
+}
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+    
+}
+header > p{
+    color: rgb(194, 194, 194);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
+    margin-bottom: 20px;
+    
+    
+    
+    
+    
+}
+
+nav{text-align: left;
+    
+    ;
+
+
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+nav > a:hover{
+    background-color: #14a540cc;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 10px 10px;
+    
+
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 350px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+}
+    h1{
+        
+    font-family: "idroid";
+    color: rgb(25, 102, 25);
+    text-indent: 5px;
+    font-weight: normal;
+}
+    h2{
+        font-family: "idroid";
+        font-weight: normal;
+        color: green;
+        background-image: linear-gradient(to right, #98FA97, #FAFFFA);
+        text-indent: 10px;
+}
+    main > article{
+        text-align: justify;
+        text-indent: 10px;
+        line-height: 1.5em;
+        
+    }
+    main a{
+        text-decoration: none;
+        color: rgb(10, 112, 10);
+    }
+   
+    
+
+    .destaque{
+        color: rgb(10, 112, 10);
+    
+        
+    }
+
+    div.video{
+        background-color: #09471B;
+        margin: 0px -10px 30px -10px;
+        padding: 20px;
+        position: relative;
+        padding-bottom: 59%;
+
+    }
+    div.video > iframe{
+        position: absolute ;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        
+    }
+    .p{background-color: rgb(17, 173, 17);
+        color: white;
+           padding: 1px;
+           margin:0px;
+           border-radius: 10px 10px 0px 0px;
+           margin-top: 10px;
+           box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+        }
+    .lista{
+        background-color: lightblue;
+        padding: 5px 10px 5px 10px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+        
+    }
+    aside{
+        text-align: justify;
+        line-height: 1.5em;
+    }
+    footer{
+        text-align: center;
+        background-color: #09471bc0;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
+        padding: 2px 0px 2px;
+        width: 100%;
+        
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+}
+    footer a:hover{
+        background-color: rgba(52, 52, 236, 0.616);
+    }

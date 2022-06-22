@@ -44,6 +44,12 @@
         
 
     }
+    div > div{
+        display: none;
+    }
+    div:hover > div{
+        display: block;
+    }
     footer{
         font-family:arial sans-serif;
         text-align: center;

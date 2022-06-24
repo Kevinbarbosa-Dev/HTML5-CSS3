@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face{
-    font-family: 'oswald';
-    src: url('oswald.otf') format('opentype');
+    font-family: 'Redwing';
+    src: url(Redwing-Medium.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,12 +18,16 @@
         
     }
     header > h1{
-        font-family: "oswald";
-        font-weight: normal;
+        font-family: "Redwing";
+        font-weight: 500;
+        background-color:#0D0D0D;
+        color: #F2BB16;
+        height:45px;
+        width: 180px;
         text-indent: 10px;
-        padding-top:1px;
-        padding-bottom:1px;
+        padding: 10px;
         margin-bottom:1px;
+        margin-left: 10px;
     }
     main {
         background-color:#454A4D;

@@ -32,9 +32,10 @@ header > h1{
 }
 main {
     background-color:#0e0d2680;
-    padding: 10px;
+    padding: 100px;
     margin:auto;
     margin-top:10px;
+    margin-bottom: 10px;
     min-width: 320px;
     max-width: 1000px;
     box-shadow: 0px 0px 10px black;
@@ -44,7 +45,14 @@ div.smoke{
         margin:auto;
         width:59%;
         padding-top: 1px;
-        padding-bottom:1px;
+        padding-bottom:30%;
+        position:relative;
+        
+}
+div.smoke > iframe{
+    position:absolute;
+    width: 105%;
+    height: 150%;
 }
 .voltar{
     

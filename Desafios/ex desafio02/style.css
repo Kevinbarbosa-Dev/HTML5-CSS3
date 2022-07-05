@@ -52,7 +52,8 @@
     footer{
         font-family:arial sans-serif;
         text-align: center;
-        background-color: #D9A404;
+        background-color: #00000077;
+        color: rgba(255, 255, 255, 0.322);
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
         padding:2px 0px 2px;
         margin-top:10px;
@@ -60,7 +61,7 @@
     }
     footer a{
         text-decoration:none;
-        color:black;
+        color:rgba(255, 255, 255, 0.322);
     }
     footer a:hover{
         background-color:#F2BB16

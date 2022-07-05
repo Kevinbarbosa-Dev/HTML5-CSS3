@@ -32,7 +32,7 @@ header > h1{
 }
 main {
     background-color:#0e0d2680;
-    padding: 100px;
+    padding: 50px;
     margin:auto;
     margin-top:10px;
     margin-bottom: 10px;
@@ -42,27 +42,18 @@ main {
     border-radius:10px;
 }
 div.smoke{
-        margin:auto;
-        width:59%;
+        width:79%;
         padding-top: 1px;
-        padding-bottom:30%;
-        position:relative;
+        padding-bottom:50%;
+        position: relative;
         
 }
 div.smoke > iframe{
-    position:absolute;
+    position: absolute;
     width: 105%;
-    height: 150%;
-}
-.voltar{
-    
-    background-color:#0E0D26;
-    color: #392973;
-    text-indent: 10px;
-    text-align: center;
-    padding: 10px;
-    margin-bottom:1px;
-    text-decoration: none;
-    border-radius: 10px 10px 10px 10px;
-
+    height: 100%;
+    padding-left:7.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

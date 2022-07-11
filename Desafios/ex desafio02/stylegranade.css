@@ -6,11 +6,11 @@
     font-style: normal;
 }
 body{
-    background-color:#0E0D26 ;
+    background-color:#0D0D0D;
     margin: auto;
 }
 header{
-    background-color: #392973;
+    background-color: #012340;
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow:0px 0px 5px 0px black;
@@ -19,8 +19,8 @@ header{
 header > h1{
     font-family: "Redwing";
     font-weight: 500;
-    background-color:#0E0D26;
-    color: #392973;
+    background-color:#0D0D0D;
+    color: #D94814;
     height:45px;
     width: 180px;
     text-indent: 10px;
@@ -31,7 +31,7 @@ header > h1{
 
 }
 main {
-    background-color:#0e0d2680;
+    background-color:#0D0D0D;
     padding: 50px;
     margin:auto;
     margin-top:10px;
@@ -41,14 +41,14 @@ main {
     box-shadow: 0px 0px 10px black;
     border-radius:10px;
 }
-div.smoke{
+div.granade{
         width:79%;
         padding-top: 1px;
         padding-bottom:50%;
         position: relative;
         
 }
-div.smoke > iframe{
+div.granade > iframe{
     position: absolute;
     width: 105%;
     height: 100%;

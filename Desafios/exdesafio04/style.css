@@ -4,10 +4,12 @@
     src: url('verve/Verve.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
-}
-body{
 
 }
+body{
+    background: url(storybook/imagens/maniraj-madishetty-v1cHuJxClF0-unsplash.jpg) center right no-repeat scroll;
+}
+
 header{
     background-color: black;
     text-align: center;
@@ -31,4 +33,22 @@ header > p > a{
 }
 header a:hover{
     background-color: rgba(156, 151, 151, 0.384);
+}
+section > p{
+    font-family: 'Sriracha', cursive;
+    font-size: large;
+    margin-left: 10px;
+    padding: 20px;
+}
+.primeira{
+    background-color: white;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.meio{
+    background-color: rgba(0, 0, 5, 0.438);
+    color: white;
+    height: 300px;
+    width: 300px;
 }

@@ -6,8 +6,12 @@
     font-style: normal;
 
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background: url(storybook/imagens/maniraj-madishetty-v1cHuJxClF0-unsplash.jpg) center right no-repeat scroll;
+    background-color: gray;
 }
 
 header{
@@ -15,7 +19,9 @@ header{
     text-align: center;
     color: white;
     padding: 10px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.281);
 }
 header > h1{
     font-family: "Verve";
@@ -24,31 +30,60 @@ header > h1{
 }
 header > p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 0px;
 }
-header > p > a{
+a{
     text-decoration: none;
     color: white;
 }
-header a:hover{
-    background-color: rgba(156, 151, 151, 0.384);
+a:hover{
+    background-color: rgba(48, 45, 45, 0.363);
 }
 section > p{
     font-family: 'Sriracha', cursive;
     font-size: large;
-    margin-left: 10px;
-    padding: 20px;
+    line-height: 2em;
+    margin-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
-.primeira{
+.normal{
     background-color: white;
     color: black;
-    height: 300px;
-    width: 300px;
 }
-.meio{
-    background-color: rgba(0, 0, 5, 0.438);
+.imagem{
+    padding: 20px;
+    background: rgb(65, 64, 64) url(storybook/imagens/maniraj-madishetty-v1cHuJxClF0-unsplash.jpg) center right no-repeat fixed;
+    background-size: cover;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.281);
+    
+}
+.imagem2{
+    padding: 20px;
+    background: url(storybook/imagens/kristian-seedorff-BvUicqkaZZ0-unsplash.jpg) bottom right no-repeat fixed;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.281);
+}
+.imagem > p{
+    width: 350px;
+    background-color: rgba(39, 38, 38, 0.5);
     color: white;
-    height: 300px;
-    width: 300px;
+    padding-left: 10px;
+    margin-left: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+.imagem2 > p{
+    width: 350px;
+    background-color: rgba(39, 38, 38, 0.5);
+    color: white;
+    padding-left: 10px;
+    margin-left: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

@@ -16,6 +16,7 @@
         th, td{
             border: 1px solid black;
             padding: 10px;
+            box-shadow: 0px 0px 1px black;
         }
     </style>
 </head>
@@ -26,10 +27,16 @@
         </caption>
         <thead>
             <tr>
-                <th scope="col">Áreas</th>
-                <th scope="col">Disciplinas</th>
-                <th colspan="2" scope="colgroup">Notas<th>Nota 1 Nota 2</th>
-                <th>Média</th>
+                <th scope="col" rowspan="2">Áreas</th>
+                <th scope="col" rowspan="2">Disciplinas</th>
+                <p>
+                    <th colspan="2" scope="colgroup">Notas
+                <th rowspan="3">Média</th>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    
+                    
         </thead>
         <tbody>
             <tr>

@@ -1,0 +1,121 @@
+@charset "utf-8";
+@media only screen and (min-width:768px)
+
+/*and (max-width:992px)*/
+    {
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    body {
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    header {
+        background-image: linear-gradient(to right, #9da6b5, rgb(157, 166, 181));
+
+    }
+
+    .logo {
+        color: black;
+        font-size: 32px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 4px;
+        padding-top: 10px;
+    }
+
+    div {
+        height: 100%;
+    }
+
+    div>p {
+        padding: 10px;
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .black-white {
+        background-image: linear-gradient(to left, #9da6b5, rgb(157, 166, 181));
+
+
+    }
+
+    .montain {
+        background-image: linear-gradient(to top, #273D59, #8C4130)
+    }
+
+    .flores {
+        background-image: linear-gradient(to top, #402C33, #592A2A);
+    }
+
+    .pink {
+        background-image: linear-gradient(to top, #734343, #F2C3A7);
+    }
+
+    .lake {
+        background-image: linear-gradient(to top, #013A40, #7AB3BF);
+    }
+
+    .ocean {
+        background-image: linear-gradient(to top, #3F3E40, #F2F2F2);
+    }
+
+    p {
+        color: rgb(214, 214, 214);
+        background-color: rgba(0, 0, 0, 0.329);
+        box-shadow: 0px 0px 5px black;
+
+    }
+
+    menu>ul {
+        list-style-type: none;
+    }
+
+    menu>ul>li>a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+
+    }
+
+    a:hover {
+        color: rgba(0, 0, 0, 0.425);
+        transition: 0.3s;
+    }
+
+    .lista {
+        letter-spacing: 2px;
+        font-size: 20px;
+        color: white;
+        padding: 0px 20px 0px 15px;
+        
+    }
+
+    nav>ul>li>a:hover {
+        background-color: gray;
+    }
+
+    img {
+        width: 550px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 1px;
+
+    }
+}

@@ -98,7 +98,7 @@
     }
     .main_content{
         color: rgb(214, 214, 214);
-        background-image: linear-gradient(to right, #8490A6,#848D9E) ;
+        background-color: (0, 0, 0, 0.274) ;
         box-shadow: 0px 0px 5px black;
         padding: 10px;
         width: 350px;
@@ -130,9 +130,22 @@
         color: black;
         font-size: large;
     }
+    .main_container3{
+        background-image: linear-gradient(to top, #402C33, #732D2D);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-self: center;
+        margin: 0 auto;
+        height: 90vh;
+        z-index: 1;
+        width: 100%;
+        max-width: 1309px;
+        padding: 50px 20px;
+    }
 
     img {
-        width: 650px;
+        width: 600px;
         
        /* margin: 0 auto;
         padding: 10px;
@@ -164,9 +177,7 @@
         background-image: linear-gradient(to top, #273D59, #8C4130)
     }
 
-    .flores {
-        background-image: linear-gradient(to top, #402C33, #592A2A);
-    }
+    
 
     .pink {
         background-image: linear-gradient(to top, #734343, #F2C3A7);
@@ -181,91 +192,84 @@
     }
 
     .container_icon {
-        display: grid;
+        display: flex;
         grid-template-columns: repeat(3,1fr);
         grid-gap: 20px;
         margin: 0 auto;
         max-width: 800px;
         padding: 10px;
+        box-shadow: 1px 2px 5px black;
+        border-radius: 10px;
+        height: 100px;
         
         
 
 
     }
 
-    .color1 {
-        margin: 0;
-        background-color: #8490A6;
+    .color {
+       
         box-shadow: 1px 2px 5px black;
         border-radius: 10px;
         height: 100px;
         width: 100px;
     }
-
-    .color2 {
-        margin: 0;
-        background-color: #848D9E;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
+    .number1{
+         background-color: #8490A6;
     }
+    .number2 {
+     background-color: #848D9E;
+     }
+    .number3 {
+    background-color: #454E59;
     }
-
-    .color3 {
-        margin: 0;
-        background-color: #454E59;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
-    }
-    .color4{
+    .number4{
         background-color: #273D59;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
     }
-    .color5{
+    .number5{
         background-color:#93A6BF;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
     }
-    .color6{
+    .number6{
         background-color: #D98F4E;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
     }
-    .color7{
+    .number7{
         background-color: #A65437;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
     }
-    .color8{
+    .number8{
         background-color: #8C4130;
-        box-shadow: 1px 2px 5px black;
-        border-radius: 10px;
-        height: 100px;
-        width: 100px;
     }
-    .color9{
+    .number9{
+        background-color: #402C33;
+    }
+    .number10{
+        background-color: #F29441;
+    }
+    .number11{
+        background-color: #D96B2B;
+    }
+    .number12{
+        background-color: #8C3A27;
+    }
+    .number13{
+        background-color: #732D2D;
+    }
+    .number14{
         
     }
-    .color10{
-        
+    .number14{
+        background-color: #252619;
     }
-    .color11{
-        
+    .number15{
+        background-color: #F2EFBD;
     }
-    .color12{
-        
+    .number16{
+        background-color: #F2C3A7;
+    }
+    .number17{
+        background-color:#BF8C80 ;
+    }
+    .number18{
+        background-color: #734343;
     }
 
 .item{

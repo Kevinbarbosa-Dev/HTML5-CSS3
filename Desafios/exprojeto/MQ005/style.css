@@ -24,7 +24,9 @@
 
         margin-top: 30px;
         margin-bottom: 30px;
+        
     }
+   
 
 
     .material-symbols-outlined {
@@ -93,7 +95,7 @@
         height: 90vh;
         z-index: 1;
         width: 100%;
-        max-width: 1309px;
+        
         padding: 50px 20px;
     }
     .main_content{
@@ -122,7 +124,6 @@
     .main_content2{
         color: rgb(214, 214, 214);
         background-color: rgba(0, 0, 0, 0.274);
-        background-color: ;
         box-shadow: 0px 0px 5px black;
         padding: 10px;
         width: 350px;
@@ -130,18 +131,21 @@
         color: black;
         font-size: large;
     }
-    .main_container3{
+    
+    .kristian{
         background-image: linear-gradient(to top, #402C33, #732D2D);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-self: center;
-        margin: 0 auto;
-        height: 90vh;
-        z-index: 1;
-        width: 100%;
-        max-width: 1309px;
-        padding: 50px 20px;
+    }
+    
+    .maniraj{
+        background-image:linear-gradient(to top,#734343,#F2C3A7 ) ;
+    }
+    
+    .matt{
+        background-image: linear-gradient(to top,#013A40,#7AB3BF);
+    }
+    
+    .vlad{
+        background-image: linear-gradient(to top,#3F3E40,#F2F2F2 );
     }
 
     img {
@@ -165,30 +169,6 @@
         max-width: 420px;
         flex-wrap: wrap;
         padding: 10px 0px 10px 0px;*/
-    }
-
-    .background {
-        background-image: linear-gradient(to left, #9da6b5, rgb(157, 166, 181));
-
-
-    }
-
-    .montain {
-        background-image: linear-gradient(to top, #273D59, #8C4130)
-    }
-
-    
-
-    .pink {
-        background-image: linear-gradient(to top, #734343, #F2C3A7);
-    }
-
-    .lake {
-        background-image: linear-gradient(to top, #013A40, #7AB3BF);
-    }
-
-    .ocean {
-        background-image: linear-gradient(to top, #3F3E40, #F2F2F2);
     }
 
     .container_icon {
@@ -253,9 +233,7 @@
     .number13{
         background-color: #732D2D;
     }
-    .number14{
-        
-    }
+    
     .number14{
         background-color: #252619;
     }
@@ -271,6 +249,36 @@
     .number18{
         background-color: #734343;
     }
+    .number19{
+        background-color: #011F26;
+    }
+    .number20{
+        background-color: #7AB3BF ;
+    }
+    .number21{
+        background-color:#023A40 ;
+    }
+    .number22{
+        background-color:#406E73 ;
+    }
+    .number23{
+        background-color: #F2C299;
+    }
+    .number24{
+        background-color: #3F3E40;
+    }
+    .number25{
+        background-color: #F2F2F2;
+    }
+    .number26{
+        background-color: #D9D9D9;
+    }
+    .number27{
+        background-color: #8C8C8C;
+    }
+    .number28{
+        background-color: #0D0D0D;
+    }
 
 .item{
     background-color: rgb(0,0,0,0.6);
@@ -282,24 +290,9 @@
     grid-row: 2;
     
 }
-.about{
-    color: white;
-    background-color: #454E59;
-        padding: 10px;
-        
-        color: black;
-        font-size: large;
 }
-.about_content{
-    color: rgb(214, 214, 214);
-        background-image: linear-gradient(to bottom, rgb(157, 166, 181),#454E59) ;
-        box-shadow: 0px 0px 5px black;
-        padding: 10px;
-        width: 100%;
-        height: 400px;
-        color: black;
-        font-size: medium;
-}
+
+
 
 /*media query cellphone
 @media only screen and (min-width:500px) and (max-width:768px) {
